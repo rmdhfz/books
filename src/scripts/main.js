@@ -59,11 +59,11 @@ function main() {
 
     document.addEventListener("DOMContentLoaded", () => {
 
-        const inputBookId = document.querySelector("#inputBookId");
-        const inputBookTitle = document.querySelector("#inputBookTitle");
-        const inputBookAuthor = document.querySelector("#inputBookAuthor");
-        const buttonSave = document.querySelector("#buttonSave");
-        const buttonUpdate = document.querySelector("#buttonUpdate");
+        const inputBookId = document.querySelector("#inputBookId"),
+        inputBookTitle = document.querySelector("#inputBookTitle"),
+        inputBookAuthor = document.querySelector("#inputBookAuthor"),
+        buttonSave = document.querySelector("#buttonSave"),
+        buttonUpdate = document.querySelector("#buttonUpdate");
 
         buttonSave.addEventListener("click", function () {
             const book = {
